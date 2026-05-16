@@ -12,3 +12,5 @@ Topics covered:
 - palindrome
 - frequency count
 - duplicate removal
+- loop methods
+- dict methods
