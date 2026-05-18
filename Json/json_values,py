@@ -1,0 +1,7 @@
+import json
+
+data = '{"name": "Praneetha", "role": "SDET"}'
+
+python_data = json.loads(data)
+
+print(python_data["role"])

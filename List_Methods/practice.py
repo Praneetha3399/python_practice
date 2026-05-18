@@ -1,39 +1,51 @@
-# Lists
+#  List Methods
+# Append
+item1 = [1,2,3]
 
-item = [1,2,3]
+item1.append(4)
 
-item.insert(1,100)
+print(item1)
 
-print(item)
+# Extend
+item2 = [1,2,3]
+item2.extend([4,5])
 
-# Get even numbers
+print(item2)
 
-def get_even_numbers(numbers):
+# insert()
+item3 = [1,2,3]
+item3.insert(1, 8)
 
-    even_numbers = []
+print(item3)
 
-    for num in numbers:
-        if num % 2 == 0:
-            even_numbers.append(num)
-    return even_numbers
+# remove()
 
-result = get_even_numbers([1,2,3,4,5,6])
+item4 = [1,2,3]
 
-print(result)
+item4.remove(3)
 
-# Count char
+print(item4)
 
-def count_characters(message):
+# pop()
 
-    count = {}
+item5 = [1,2,3]
 
-    for char in message:
-        if char in count:
-            count[char] +=1
-        else:
-            count[char] = 1
-    return count
+item5.pop(2)
 
-result2 = count_characters("hello")
+print(item5)
 
-print(result2)
+# sort()
+
+item6 = [4,2,3,1]
+
+item6.sort()
+
+print(item6)
+
+# reverse()
+
+item7 = [1,2,3]
+
+item7.reverse()
+
+print(item7)
